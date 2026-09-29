@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #1e1f24;
+  color: #f5f2ea;
+}
+
+.title-screen {
+  text-align: center;
+  padding: 24px;
+}
+
+h1 {
+  font-size: clamp(28px, 6vw, 48px);
+  margin: 0 0 8px;
+}
+
+.subtitle {
+  color: #a8a29a;
+  margin: 0 0 32px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 32px;
+  border: 1px solid #f0b90b;
+  border-radius: 6px;
+  background: transparent;
+  color: #f0b90b;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f0b90b;
+  color: #1e1f24;
+}
+
+#status {
+  margin-top: 24px;
+  color: #a8a29a;
+}
